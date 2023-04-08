@@ -1,6 +1,8 @@
 import tkinter as tk
+
 # from tkinter import ttk
 import ttkbootstrap as ttk
+
 
 def convert():
     mile_input = entry_int.get()
@@ -9,7 +11,7 @@ def convert():
 
 
 # window
-window = ttk.Window(themename='darkly')
+window = ttk.Window(themename="darkly")
 window.title("Demo")
 window.geometry("300x150")
 

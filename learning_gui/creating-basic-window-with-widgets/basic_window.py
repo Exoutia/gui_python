@@ -33,7 +33,7 @@ my_label.pack()
 
 # my button
 # my_button = ttk.Button(master=window, text="hello", command=hello)
-my_button = ttk.Button(master=window, text="hello", command=lambda: print('hello'))
+my_button = ttk.Button(master=window, text="hello", command=lambda: print("hello"))
 my_button.pack()
 
 # ttk button
